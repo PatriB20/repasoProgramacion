@@ -53,33 +53,6 @@ function horoscopo (dia:number,mes:string)
 horoscopo(20,"julio")
 
 //Reto 2 
-// let pais:string ="China"
-// let continente
-//  switch (pais)
-//  {
-//     case ("Australia"|| "Polinesia Francesa"||
-//      "Islas Salomon"||"Papúa Nueva Guinea"):
-//         console.log("Oceania")
-//       break;
-//     case ("Marruecos"||"Nigeria"|| "Kenia"||
-//     "Etiopia"|| "Tanzania" ):
-//         console.log("Africa");
-//         break;
-//     case ("España"|| "Portugal"|| "Francia"||
-//     "Alemania"|| "Suiza"):
-//         console.log("Europa");
-//         break
-//     case ("China"|| "Japon"|| "Taiwan"|| 
-//     "Tailandia"|| "India"):
-//        console.log("Asia");
-//         break
-//     case ("Estados Unidos"|| "Colombia"|| "Mexico"||
-//     "Perú"|| "Venezuela"):
-//             console.log("America")
-//         break;
-
-//  }
-//  console.log()
 function paises(pais:string){
 if (pais == "Australia"||pais == "Polinesia Francesa"||pais == "Islas Salomon"||pais == "Papúa Nueva Guinea")
 {
