@@ -1,6 +1,4 @@
 //Reto 1
-var mes = "";
-var dia = 0;
 function horoscopo(dia, mes) {
     if ((dia >= 21 && mes == "marzo") || (dia <= 20 && mes == "abril")) {
         console.log("Aries");
@@ -41,54 +39,50 @@ function horoscopo(dia, mes) {
 }
 horoscopo(20, "julio");
 //Reto 2 
-var pais = "China";
-var continente;
-switch (pais) {
-    case ("Australia" || "Polinesia Francesa" ||
-        "Islas Salomon" || "Papúa Nueva Guinea"):
-        console.log("Oceania");
-        break;
-    case ("Marruecos" || "Nigeria" || "Kenia" ||
-        "Etiopia" || "Tanzania"):
-        console.log("Africa");
-        break;
-    case ("España" || "Portugal" || "Francia" ||
-        "Alemania" || "Suiza"):
-        console.log("Europa");
-        break;
-    case ("China" || "Japon" || "Taiwan" ||
-        "Tailandia" || "India"):
-        console.log("Asia");
-        break;
-    case ("Estados Unidos" || "Colombia" || "Mexico" ||
-        "Perú" || "Venezuela"):
-        console.log("America");
-        break;
-}
-console.log();
+// let pais:string ="China"
+// let continente
+//  switch (pais)
+//  {
+//     case ("Australia"|| "Polinesia Francesa"||
+//      "Islas Salomon"||"Papúa Nueva Guinea"):
+//         console.log("Oceania")
+//       break;
+//     case ("Marruecos"||"Nigeria"|| "Kenia"||
+//     "Etiopia"|| "Tanzania" ):
+//         console.log("Africa");
+//         break;
+//     case ("España"|| "Portugal"|| "Francia"||
+//     "Alemania"|| "Suiza"):
+//         console.log("Europa");
+//         break
+//     case ("China"|| "Japon"|| "Taiwan"|| 
+//     "Tailandia"|| "India"):
+//        console.log("Asia");
+//         break
+//     case ("Estados Unidos"|| "Colombia"|| "Mexico"||
+//     "Perú"|| "Venezuela"):
+//             console.log("America")
+//         break;
+//  }
+//  console.log()
 function paises(pais) {
-    if (pais == "Australia" || "Polinesia Francesa" ||
-        "Islas Salomon" || "Papúa Nueva Guinea") {
+    if (pais == "Australia" || pais == "Polinesia Francesa" || pais == "Islas Salomon" || pais == "Papúa Nueva Guinea") {
         console.log("Oceania");
     }
-    else if (pais == ("Marruecos" || "Nigeria" || "Kenia" ||
-        "Etiopia" || "Tanzania")) {
+    else if (pais == "Marruecos" || pais == "Nigeria" || pais == "Kenia" || pais == "Tanzania") {
         console.log("Africa");
     }
-    else if (pais == "España" || "Portugal" || "Francia" ||
-        "Alemania" || "Suiza") {
+    else if (pais == "España" || pais == "Portugal" || pais == "Francia" || pais == "Alemania") {
         console.log("Europa");
     }
-    else if (pais == "China" || "Japon" || "Taiwan" ||
-        "Tailandia" || "India") {
+    else if (pais == "China" || pais == "Japon" || pais == "Taiwan" || pais == "Tailandia") {
         console.log("Asia");
     }
-    else if (pais == "Estados Unidos" || "Colombia" || "Mexico" ||
-        "Perú" || "Venezuela") {
+    else if (pais == "Estados Unidos" || pais == "Colombia" || pais == "Peru" || pais == "Mexico") {
         console.log("America");
     }
 }
-paises("Estados Unidos");
+paises("Nigeria");
 //Reto 9
 function numberPar(number) {
     if (number % 2 == 0) {

@@ -53,34 +53,56 @@ function horoscopo (dia:number,mes:string)
 horoscopo(20,"julio")
 
 //Reto 2 
-let pais:string ="China"
-let continente
- switch (pais)
- {
-    case ("Australia"|| "Polinesia Francesa"||
-     "Islas Salomon"||"Papúa Nueva Guinea"):
-        console.log("Oceania")
-      break;
-    case ("Marruecos"||"Nigeria"|| "Kenia"||
-    "Etiopia"|| "Tanzania" ):
-        console.log("Africa");
-        break;
-    case ("España"|| "Portugal"|| "Francia"||
-    "Alemania"|| "Suiza"):
-        console.log("Europa");
-        break
-    case ("China"|| "Japon"|| "Taiwan"|| 
-    "Tailandia"|| "India"):
-       console.log("Asia");
-        break
-    case ("Estados Unidos"|| "Colombia"|| "Mexico"||
-    "Perú"|| "Venezuela"):
-            console.log("America")
-        break;
+// let pais:string ="China"
+// let continente
+//  switch (pais)
+//  {
+//     case ("Australia"|| "Polinesia Francesa"||
+//      "Islas Salomon"||"Papúa Nueva Guinea"):
+//         console.log("Oceania")
+//       break;
+//     case ("Marruecos"||"Nigeria"|| "Kenia"||
+//     "Etiopia"|| "Tanzania" ):
+//         console.log("Africa");
+//         break;
+//     case ("España"|| "Portugal"|| "Francia"||
+//     "Alemania"|| "Suiza"):
+//         console.log("Europa");
+//         break
+//     case ("China"|| "Japon"|| "Taiwan"|| 
+//     "Tailandia"|| "India"):
+//        console.log("Asia");
+//         break
+//     case ("Estados Unidos"|| "Colombia"|| "Mexico"||
+//     "Perú"|| "Venezuela"):
+//             console.log("America")
+//         break;
 
- }
- console.log()
-
+//  }
+//  console.log()
+function paises(pais:string){
+if (pais == "Australia"||pais == "Polinesia Francesa"||pais == "Islas Salomon"||pais == "Papúa Nueva Guinea")
+{
+    console.log("Oceania")
+}
+else if (pais == "Marruecos"||pais == "Nigeria"||pais == "Kenia"||pais == "Tanzania")
+{
+    console.log("Africa")
+}
+else if (pais == "España"||pais == "Portugal"||pais == "Francia"||pais == "Alemania")
+{
+    console.log("Europa")
+}
+else if(pais == "China"||pais == "Japon"||pais == "Taiwan"||pais == "Tailandia")
+{
+    console.log("Asia")
+}
+else if(pais == "Estados Unidos"||pais == "Colombia"||pais == "Peru"||pais == "Mexico")
+{
+    console.log("America")
+}
+}
+paises("Nigeria")
 //Reto 9
 function numberPar (number:number)
 {
